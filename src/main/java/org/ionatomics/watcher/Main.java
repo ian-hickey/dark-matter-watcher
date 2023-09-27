@@ -8,8 +8,12 @@ import java.nio.file.Paths;
 
 public class Main {
     public static void main(String[] args) {
+        String srcPath = "src/main/cfscript";
+        if (args.length > 0) {
+            srcPath = args[0];
+        }
         System.out.println("Dark Matter Watching...");
-        Path dir = Paths.get("src/main/cfscript");
+        Path dir = Paths.get(srcPath);
         try {
             DirectoryWatcher watcher = DirectoryWatcher.builder()
                     .path(dir)  // or .paths(dir1, dir2, ...)
