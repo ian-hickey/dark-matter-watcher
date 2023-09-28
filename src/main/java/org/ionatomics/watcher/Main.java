@@ -47,7 +47,14 @@ public class Main {
                     if (!Files.isDirectory(fullPath)) {
                         System.out.println("File "+ event.kind().name() +  ": " + fullPath);
                         if (mvnComm.length() > 0) {
-                            ProcessBuilder builder = new ProcessBuilder("mvn", mvnComm);
+                            String os = System.getProperty("os.name").toLowerCase();
+                            String mvnExec;
+                            if (os.contains("win")) {
+                                mvnExec = ".\\mvnw.cmd";
+                            } else {
+                                mvnExec = "./mvnw";
+                            }
+                            ProcessBuilder builder = new ProcessBuilder(mvnExec, mvnComm);
                             builder.directory(new File(System.getProperty("user.dir")));
                             builder.redirectErrorStream(true);
                             Process process = builder.start();

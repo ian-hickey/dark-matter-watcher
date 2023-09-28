@@ -5,7 +5,7 @@ component {
      */
     public any function change() {
         //this is a change
-        throw("Sub changed"); // here
+        throw("Sub changed"); // here.
 
         return 1;
     }

@@ -38,6 +38,10 @@
           </execution>
         </executions>
       </plugin>
+      <plugin>
+        <artifactId>maven-wrapper-plugin</artifactId>
+        <version>3.2.0</version>
+      </plugin>
     </plugins>
   </build>
   <repositories>
