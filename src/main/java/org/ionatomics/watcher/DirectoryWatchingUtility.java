@@ -17,9 +17,7 @@ public class DirectoryWatchingUtility {
                 .path(directoryToWatch) // or use paths(directoriesToWatch)
                 .listener(event -> {
                     switch (event.eventType()) {
-                        case CREATE: /* file created */; break;
-                        case MODIFY: /* file modified */; break;
-                        case DELETE: /* file deleted */; break;
+                        case CREATE, MODIFY, DELETE: break;
                     }
                 })
                 // .fileHashing(false) // defaults to true
