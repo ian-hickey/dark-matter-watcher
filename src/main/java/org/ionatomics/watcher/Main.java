@@ -68,16 +68,4 @@ public class Main {
             throw new RuntimeException(e);
         }
     }
-
-    public static void runMavenCommand() {
-        try {
-            Process process = new ProcessBuilder("mvn", "process-resources").start();
-            int exitCode = process.waitFor();
-            if (exitCode != 0) {
-                System.err.println("Darkmatter command failed with exit code: " + exitCode);
-            }
-        } catch (IOException | InterruptedException e) {
-            e.printStackTrace();
-        }
-    }
 }

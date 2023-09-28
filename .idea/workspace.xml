@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="66091b69-5622-4f55-af94-06afb1343c32" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/cfscript/model/test2.cfc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/cfscript/model/test3.cfc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/cfscript/test.cfc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/cfscript/test.cfc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/ionatomics/watcher/DirectoryWatchingUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ionatomics/watcher/DirectoryWatchingUtility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/cfscript/model/test2.cfc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/cfscript/model/test2.cfc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/ionatomics/watcher/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ionatomics/watcher/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,6 +63,9 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -103,6 +105,7 @@
       <option name="presentableId" value="Default" />
       <updated>1695810209962</updated>
       <workItem from="1695810211376" duration="11310000" />
+      <workItem from="1695928616121" duration="1203000" />
     </task>
     <servers />
   </component>
