@@ -5,6 +5,6 @@ component {
      */
     public any function change() {
         //this is a change
-        throw("Test");
+        throw("Message");
     }
 }
