@@ -11,7 +11,7 @@ public class Main {
     public static final String DARK_MATTER_WATCHING = "Dark Matter Watching...";
 
     public static void main(String[] args) {
-        String srcPath = "src/main/cfscript";
+        String srcPath = "src"+File.separator+"main"+File.separator+"cfscript";
         String mvnComm = "process-resources";
         // Src Path
         if (args.length > 0) {
